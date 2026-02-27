@@ -10,7 +10,6 @@ const filters = [
   { label: "Before / After", value: "beforeafter" },
   { label: "Podcast", value: "podcast" },
   { label: "Real Estate", value: "realestate" },
-  { label: "Thumbnail", value: "thumbnail" },
 ];
 
 // ================= PROJECTS (ONLY YOUTUBE LINKS) =================
@@ -18,7 +17,47 @@ const filters = [
 const projects = [
   {
     category: "shortform",
-    embedUrl: "https://www.youtube.com/embed/VIDEO_ID_1",
+    embedUrl: "https://www.youtube.com/embed/k9dGudaWFhw",
+  },
+    {
+    category: "shortform",
+    embedUrl: "https://www.youtube.com/embed/OSA5Wa1m9xs",
+  },
+    {
+    category: "shortform",
+    embedUrl: "https://www.youtube.com/embed/gGgZndnWtBY",
+  },
+    {
+    category: "shortform",
+    embedUrl: "https://www.youtube.com/embed/aDjSSxXklFc?",
+  },
+    {
+    category: "shortform",
+    embedUrl: "https://www.youtube.com/embed/oWBdmTD3Ui0",
+  },
+    {
+    category: "shortform",
+    embedUrl: "https://www.youtube.com/embed/pcYJQ4I39pQ",
+  },
+    {
+    category: "shortform",
+    embedUrl: "https://www.youtube.com/embed/FmzXfGl6_pw",
+  },
+    {
+    category: "shortform",
+    embedUrl: "https://www.youtube.com/embed/HO4RO9JWfro",
+  },
+    {
+    category: "shortform",
+    embedUrl: "https://www.youtube.com/embed/iDb2WU95EAY",
+  },
+    {
+    category: "shortform",
+    embedUrl: "https://www.youtube.com/embed/tAmXSGUlD84",
+  },
+    {
+    category: "longform",
+    embedUrl: "https://www.youtube.com/embed/VIDEO_ID_5",
   },
   {
     category: "podcast",
@@ -26,16 +65,41 @@ const projects = [
   },
   {
     category: "realestate",
-    embedUrl: "https://www.youtube.com/embed/VIDEO_ID_3",
+    embedUrl: "https://www.youtube.com/embed/C_D845-4L00",
   },
   {
     category: "beforeafter",
-    embedUrl: "https://www.youtube.com/embed/VIDEO_ID_4",
+    embedUrl: "https://www.youtube.com/embed/2CcD-Hehpd8",
+  }, 
+   {
+    category: "beforeafter",
+    embedUrl: "https://www.youtube.com/embed/GzyHyiVmEoU",
   },
-  {
-    category: "shortform",
-    embedUrl: "https://www.youtube.com/embed/VIDEO_ID_5",
+    {
+    category: "beforeafter",
+    embedUrl: "https://www.youtube.com/embed/kNqWKmP7RIU",
   },
+    {
+    category: "beforeafter",
+    embedUrl: "https://www.youtube.com/embed/ZvNUFj1icjk",
+  },
+    {
+    category: "beforeafter",
+    embedUrl: "https://www.youtube.com/embed/k5IgoQVEss4",
+  },
+    {
+    category: "beforeafter",
+    embedUrl: "https://www.youtube.com/embed/WfBWNCSRYkE",
+  },
+    {
+    category: "beforeafter",
+    embedUrl: "https://www.youtube.com/embed/igTA8rWOHXE",
+  },
+    {
+    category: "beforeafter",
+    embedUrl: "https://www.youtube.com/embed/Bzh-7k253QM",
+  },
+  
 ];
 
 // ================= COMPONENT =================
