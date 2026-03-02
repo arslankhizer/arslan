@@ -1,9 +1,9 @@
 import { Youtube, Instagram, Facebook, Mail } from "lucide-react";
 
 const socials = [
-  { icon: Youtube, href: "#", label: "YouTube" },
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Facebook, href: "https://www.facebook.com/arslan.edits", label: "Facebook" },
+  { icon: Youtube, href: "https://www.youtube.com/channel/UCvLNbusmbsU0m2oEXZ2ky8g", label: "YouTube" },
+  { icon: Instagram, href: "https://www.instagram.com/arslaneditz5", label: "Instagram" },
+  { icon: Facebook, href: "https://www.facebook.com/arslan2205", label: "Facebook" },
 ];
 
 const FooterSection = () => (
@@ -20,16 +20,18 @@ const FooterSection = () => (
       </a>
 
       <div className="flex items-center justify-center gap-5 mb-8">
-        {socials.map(({ icon: Icon, href, label }) => (
-          <a
-            key={label}
-            href={href}
-            aria-label={label}
-            className="p-3 rounded-full border border-border text-muted-foreground hover:text-primary hover:border-primary transition-colors"
-          >
-            <Icon size={20} />
-          </a>
-        ))}
+      {socials.map(({ icon: Icon, href, label }) => (
+  <a
+    key={label}
+    href={href}
+    aria-label={label}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="p-3 rounded-full border border-border text-muted-foreground hover:text-primary hover:border-primary transition-colors"
+  >
+    <Icon size={20} />
+  </a>
+))}
       </div>
 
       <p className="text-sm text-muted-foreground">
