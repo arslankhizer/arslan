@@ -27,9 +27,9 @@ const HeroSection = () => {
           transition={{ duration: 0.7, delay: 0.15 }}
           className="text-5xl md:text-7xl lg:text-8xl font-display font-bold leading-tight mb-6"
         >
-          Crafting Stories
+          Your Vision
           <br />
-          <span className="text-primary">Frame by Frame</span>
+          <span className="text-primary">Our Editing</span>
         </motion.h1>
 
         <motion.p
