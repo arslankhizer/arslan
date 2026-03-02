@@ -8,13 +8,16 @@ const filters = [
   { label: "Short Form", value: "shortform" },
   { label: "Long Form", value: "longform" },
   { label: "Before / After", value: "beforeafter" },
-  { label: "Podcast", value: "podcast" },
   { label: "Real Estate", value: "realestate" },
 ];
 
 // ================= PROJECTS (ONLY YOUTUBE LINKS) =================
 
 const projects = [
+  {
+    category: "longform",
+    embedUrl: "https://www.youtube.com/embed/Pzbj9_GmBsc",
+  },
   {
     category: "shortform",
     embedUrl: "https://www.youtube.com/embed/k9dGudaWFhw",
@@ -57,15 +60,31 @@ const projects = [
   },
     {
     category: "longform",
-    embedUrl: "https://www.youtube.com/embed/VIDEO_ID_5",
+    embedUrl: "https://www.youtube.com/embed/NdHlgL6IWpk",
+  },
+    {
+    category: "longform",
+    embedUrl: "https://www.youtube.com/embed/dMOvv-NcukU",
   },
   {
     category: "podcast",
-    embedUrl: "https://www.youtube.com/embed/VIDEO_ID_2",
+    embedUrl: "https://www.youtube.com/embed/VIDEO",
+  },
+  {
+    category: "realestate",
+    embedUrl: "https://www.youtube.com/embed/nNC55Ggp5G0",
   },
   {
     category: "realestate",
     embedUrl: "https://www.youtube.com/embed/C_D845-4L00",
+  },
+  {
+    category: "realestate",
+    embedUrl: "https://www.youtube.com/embed/vxOG7amnflw",
+  },
+  {
+    category: "realestate",
+    embedUrl: "https://www.youtube.com/embed/Atf4Z-wDfh8",
   },
   {
     category: "beforeafter",
