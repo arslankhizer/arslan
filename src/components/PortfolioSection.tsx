@@ -145,9 +145,7 @@ const PortfolioSection = () => {
             Work
           </p>
           <h2 className="section-heading">Video Portfolio</h2>
-          <p className="section-subheading max-w-xl mx-auto">
-            Real YouTube videos. No fake thumbnails. No extra text.
-          </p>
+          
         </motion.div>
 
         {/* FILTER BUTTONS */}
